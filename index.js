@@ -79,11 +79,6 @@ client.on('messageCreate', async (message) => {
         }
         
     }
-
-    // if(message.author.id === '337885599069372416') {
-    //     message.delete();
-    //     console.log('Miguel is Gay!');
-    // }
 });
 
 async function execute(message, args, serverQueue) {
